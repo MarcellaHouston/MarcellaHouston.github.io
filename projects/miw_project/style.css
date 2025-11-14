@@ -1,0 +1,35 @@
+p {
+    text-indent: 40px; /* Indent the first line */
+}
+
+body {
+    margin: 0px;
+}
+
+.content {
+    margin: 20px;
+}
+
+.topnav {
+    background-color: darkslategray;
+    overflow: hidden;
+    margin: 0px;
+}
+
+.topnav a {
+    float: left;
+    color: aliceblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #000000;
+}
