@@ -2,12 +2,35 @@ p {
     text-indent: 40px; /* Indent the first line */
 }
 
+html,
+body {
+    height: 100%;
+    background-image: linear-gradient(
+        to bottom,
+        rgb(160, 160, 160),
+        rgb(96, 81, 105)
+    );
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 body {
     margin: 0px;
 }
 
 .content {
-    margin: 20px;
+    margin: 0px 20px;
+    padding: 20px;
+
+    max-width: 80%;
+    width: 800px;
+    margin: auto;
+
+    min-height: calc(100vh - 88px);
+
+    background-color: rgba(255, 255, 255, 0.86);
+
+    border-radius: 0px 0px 50px 50px;
 }
 
 .topnav {
@@ -25,7 +48,8 @@ body {
     font-size: 17px;
 }
 
-.topnav a:hover {
+.topnav a:hover,
+.topnav a.active:hover {
     background-color: #ddd;
     color: black;
 }

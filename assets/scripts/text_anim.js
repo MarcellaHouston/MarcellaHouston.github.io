@@ -15,7 +15,10 @@ $(document).ready(function () {
         let offset = Math.floor(Math.random() * parts);
 
         for (let i = 0; i < text.length; i++) {
-            let delay = ((i + offset) % parts) * (animation_duration / parts);
+            let delay =
+                ((parts - i + offset) % parts) *
+                -1 *
+                (animation_duration / parts);
             new_html +=
                 '<span style="animation-delay:' +
                 delay +
