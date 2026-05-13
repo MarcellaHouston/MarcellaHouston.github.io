@@ -1,0 +1,199 @@
+{
+    "cs_projects": [
+        {
+            "spotlight": true,
+            "title": "Reach",
+            "slogan": "An AI-powered goal keeping app for iOS",
+            "description": "A functioning MVP with a frontend and backend supporting CRUD for goal and task management with a RAG Ai to support your habits. My work focused on auth, http requests, and schema definitions.",
+            "link": "https://github.com/MarcellaHouston/peachtree",
+            "tags": {
+                "primary": ["Swift", "SwiftUI"],
+                "secondary": ["HTTP"],
+                "tertiary": ["Figma"]
+            }
+        },
+        {
+            "spotlight": true,
+            "title": "Scalable Search Engine",
+            "slogan": "A distributed MapReduce system + search GUI",
+            "description": "A collection of 4 programs: a fault-tolerant manager and worker system for building an inverted index of web pages, an index server to query a json of search results based on a weight of if-idf vs pagerank scores, and a search server to wrap the wires in a pretty GUI for users.",
+            "link": "/projects/search_engine/",
+            "tags": {
+                "primary": ["Python"],
+                "secondary": ["Distributed Systems"],
+                "tertiary": ["Flask", "REST API"]
+            }
+        },
+        {
+            "spotlight": false,
+            "title": "Instagram Clone",
+            "slogan": "A dynamic web app with text/image posting & auth",
+            "description": "A social media web app that provides encrypted auth",
+            "link": "/projects/ig_clone/",
+            "tags": {
+                "primary": [],
+                "secondary": [],
+                "tertiary": []
+            }
+        },
+        {
+            "spotlight": false,
+            "title": "VVVVVV",
+            "slogan": "Open source contributions",
+            "description": "Implemented a new, simplified function for the in-game level editor to play sounds.",
+            "link": "https://github.com/TerryCavanagh/VVVVVV/commit/d3197d10f7ee6e84331826c89e2415720c9e6888",
+            "tags": {
+                "primary": ["C++"],
+                "secondary": ["Open Source"],
+                "tertiary": []
+            }
+        },
+        {
+            "spotlight": false,
+            "title": "Tileset Tool",
+            "slogan": "libpng wrapper",
+            "description": "A tool to create a connected-texture tileset of 47 tiles from only 5 tiles.",
+            "link": "/projects/under_construction/",
+            "tags": {
+                "primary": ["C++"],
+                "secondary": ["libpng"],
+                "tertiary": []
+            }
+        },
+        {
+            "spotlight": false,
+            "title": "Sillytask",
+            "slogan": "CLI task management",
+            "description": "A lightweight tool for task management following the Unix philosophy.",
+            "link": "https://github.com/MarcellaHouston/sillytask",
+            "tags": {
+                "primary": ["Python"],
+                "secondary": ["SQLite", "Unix"],
+                "tertiary": []
+            }
+        },
+        {
+            "spotlight": false,
+            "title": "Thread Library",
+            "slogan": "OS-level architecture",
+            "description": "An efficient, multicore thread library build from OS-level commands.",
+            "link": "/projects/thread_library/",
+            "tags": {
+                "primary": ["C++"],
+                "secondary": [],
+                "tertiary": ["Multithreading"]
+            }
+        },
+        {
+            "spotlight": false,
+            "title": "Pager",
+            "slogan": "OS-level architecture",
+            "description": "A memory pager for address space abstraction that supports multiple processes and forking. It defers works via copy-on-write.",
+            "link": "/projects/pager/",
+            "tags": {
+                "primary": ["C++"],
+                "secondary": [],
+                "tertiary": []
+            }
+        },
+        {
+            "spotlight": false,
+            "title": "Network File Server",
+            "slogan": "Precisely as it sounds",
+            "description": "A multithreaded server program to enable filesystem CRUD for several concurrent users.",
+            "link": "/projects/nfs/",
+            "tags": {
+                "primary": ["C++"],
+                "secondary": [],
+                "tertiary": ["Multithreading", "Sockets"]
+            }
+        },
+        {
+            "spotlight": false,
+            "title": "",
+            "title_": "PMT",
+            "slogan": "TUI game",
+            "description": "",
+            "link": "/projects/under_construction/",
+            "tags": {
+                "primary": ["Python"],
+                "secondary": ["Curses"],
+                "tertiary": ["Multithreading"]
+            }
+        },
+        {
+            "spotlight": false,
+            "title": "",
+            "slogan": "",
+            "description": "",
+            "link": null,
+            "tags": {
+                "primary": [],
+                "secondary": [],
+                "tertiary": []
+            }
+        }
+    ],
+    "other_projects": [
+        {
+            "spotlight": true,
+            "title": "You Never Enjoy a Game",
+            "slogan": "Essay",
+            "description": "A creative-nonfiction essay about the painful urge to be the best.",
+            "link": "/projects/miw_project/",
+            "tags": {
+                "primary": ["Essay"],
+                "secondary": ["Creative-Nonfiction"],
+                "tertiary": ["HTML", "CSS"]
+            }
+        },
+        {
+            "spotlight": false,
+            "title": "Game Builder Garage Projects",
+            "slogan": "Game-Maker Game Collection",
+            "description": "",
+            "link": "/projects/under_construction/",
+            "tags": {
+                "primary": [],
+                "secondary": [],
+                "tertiary": []
+            }
+        },
+        {
+            "spotlight": false,
+            "title": "Super Mario Maker 2 Levels",
+            "slogan": "Level-Editor Level Collection",
+            "description": "A slew of both traditional and technical levels that often use niche hidden mechanics.",
+            "link": "/projects/under_construction/",
+            "tags": {
+                "primary": [],
+                "secondary": [],
+                "tertiary": []
+            }
+        },
+        {
+            "spotlight": false,
+            "title": "",
+            "slogan": "",
+            "description": "",
+            "link": null,
+            "tags": {
+                "primary": [],
+                "secondary": [],
+                "tertiary": []
+            }
+        },
+        {
+            "spotlight": false,
+            "title": "",
+            "slogan": "",
+            "description": "",
+            "link": null,
+            "tags": {
+                "primary": [],
+                "secondary": [],
+                "tertiary": []
+            }
+        }
+    ]
+}
