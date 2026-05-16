@@ -31,9 +31,9 @@
             "description": "A social media web app that provides encrypted auth",
             "link": "/projects/ig_clone/",
             "tags": {
-                "primary": [],
-                "secondary": [],
-                "tertiary": []
+                "primary": ["Python"],
+                "secondary": ["SQLite"],
+                "tertiary": ["Flask", "REST API"]
             }
         },
         {
@@ -151,7 +151,7 @@
             "spotlight": false,
             "title": "Game Builder Garage Projects",
             "slogan": "Game-Maker Game Collection",
-            "description": "",
+            "description": "Various 3d games/tech demos made using a limited game creator game on Switch.",
             "link": "/projects/under_construction/",
             "tags": {
                 "primary": [],

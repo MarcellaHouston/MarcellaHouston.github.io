@@ -8,7 +8,8 @@
     max-width: 700px;
 }
 
-.unformatted {
+a {
+    text-decoration-line: none;
     text-decoration: none;
     color: inherit;
 }
@@ -51,7 +52,8 @@
 .card .title {
     font-weight: bold;
 }
-.card .meta {
+.card .meta,
+#gpa {
     font-weight: lighter;
     color: gray;
     padding-bottom: 0em;

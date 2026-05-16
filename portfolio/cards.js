@@ -34,7 +34,7 @@ function create_card_div(card) {
     }
 
     // Initialize the result
-    const res = create_elem("a", "unformatted");
+    const res = create_elem("a");
     // Link stuff
     res.setAttribute("href", card.link);
     res.setAttribute("target", "_blank");
@@ -69,10 +69,30 @@ function create_card_div(card) {
     return res;
 }
 
+// Make sure the grid always fits
+function set_grid_width() {
+    const cs_cards = document.getElementById("cs_projects");
+    const other_cards = document.getElementById("other_projects");
+    if (window.innerWidth - cs_cards.offsetWidth < 75) {
+        cs_cards.style.gridTemplateColumns =
+            "repeat( 2, calc(var(--card-size) / 2 + var(--card-margin)) )";
+        other_cards.style.gridTemplateColumns =
+            "repeat( 2, calc(var(--card-size) / 2 + var(--card-margin)) )";
+    } else {
+        cs_cards.style.gridTemplateColumns =
+            "repeat( 4, calc(var(--card-size) / 2 + var(--card-margin)) )";
+        other_cards.style.gridTemplateColumns =
+            "repeat( 4, calc(var(--card-size) / 2 + var(--card-margin)) )";
+    }
+}
+window.onresize = set_grid_width;
+
+// Load the cards when the document is loaded
 document.addEventListener("DOMContentLoaded", async function () {
     const cs_cards = document.getElementById("cs_projects");
     const other_cards = document.getElementById("other_projects");
     const projects = await fetch_projects();
+    set_grid_width();
 
     cs_cards.textContent = "";
     projects.cs_projects.forEach((card) => {
