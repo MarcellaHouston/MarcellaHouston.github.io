@@ -4,7 +4,12 @@
             "spotlight": true,
             "title": "Reach",
             "slogan": "An AI-powered goal keeping app for iOS",
-            "description": "A functioning MVP with a frontend and backend supporting CRUD for goal and task management with a RAG Ai to support your habits. My work focused on auth, http requests, and schema definitions.",
+            "description": "A functioning MVP with a frontend and backend supporting CRUD for goal and task management with a RAG AI to support your habits. My work focused on auth, http requests, and schema definitions.",
+            "toki_pona": {
+                "title": "󱤎󱦐󱤤󱤏󱦑",
+                "slogan": "󱥁󱤧󱤎󱥩󱤎󱤨󱤭󱦜󱥞󱤙󱥁󱤡󱥞󱤘󱤉󱥷󱥞",
+                "description": "󱤎󱥁󱤧󱤙󱤎󱥶󱦜󱤎󱥶󱤊󱤎󱥍󱦗󱥬󱥖󱤑󱦘󱤧󱥬󱦜󱥞󱤘󱥌󱤉󱥷󱥩󱤎󱥶󱦜󱥞󱤊󱤎󱥍󱦗󱥬󱥖󱤑󱦘󱤧󱥩󱥩󱦗󱥷󱥞󱦘󱦜󱥉󱤴󱤧󱥁󱦝󱥞󱤘󱥌󱤉󱥬󱥩󱥓󱥶󱦜󱤴󱥉󱥹󱤉󱥓󱥶󱤉󱥵󱥁󱦝󱤎󱤨󱥞󱤊󱤎󱥶󱤧󱤘󱥬󱦜"
+            },
             "link": "https://github.com/MarcellaHouston/peachtree",
             "tags": {
                 "primary": ["Swift", "SwiftUI"],
@@ -148,7 +153,7 @@
             }
         },
         {
-            "spotlight": false,
+            "spotlight": true,
             "title": "Game Builder Garage Projects",
             "slogan": "Game-Maker Game Collection",
             "description": "Various 3d games/tech demos made using a limited game creator game on Switch.",
@@ -164,7 +169,7 @@
             "title": "Super Mario Maker 2 Levels",
             "slogan": "Level-Editor Level Collection",
             "description": "A slew of both traditional and technical levels that often use niche hidden mechanics.",
-            "link": "/projects/smm2/",
+            "link": "https://makercentral.io/users/JQPVQPX0H",
             "tags": {
                 "primary": [],
                 "secondary": [],

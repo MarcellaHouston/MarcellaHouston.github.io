@@ -1,0 +1,107 @@
+/* Weird alignment stuff important with topbar */
+body {
+    margin: 0px;
+}
+
+/* GBG-ish Theme stuff */
+* {
+    font-family: sans-serif;
+}
+html {
+    background-color: #ffd32e;
+}
+.header {
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+    width: 100vw;
+
+    color: #fefffd;
+    background: repeating-linear-gradient(
+        45deg,
+        #030000,
+        #030000 10px,
+        #382e02 10px,
+        #382e02 20px
+    );
+}
+.header > * {
+    background-color: #010000;
+    padding: 1px 10px;
+
+    border-style: solid;
+    border-color: #fefffd;
+    border-width: 1px;
+    border-radius: 20px;
+
+    /* display: inline-block; */
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.box {
+    background-color: #fefffd;
+    border-color: #f35f00;
+    border-style: solid;
+    border-width: 3px;
+    color: #f35f00;
+
+    margin: 0px;
+    padding: 10px;
+}
+
+.red {
+    background-color: #fd004b;
+}
+.green {
+    background-color: #00ac7b;
+}
+.blue {
+    background-color: #2162d3;
+}
+.orange {
+    background-color: #f35f00;
+}
+.tab {
+    color: #fefffd;
+
+    margin-bottom: 0px;
+    padding: 5px;
+}
+
+/* Variablesss */
+:root {
+    --media-width: 560px;
+    --media-height: calc(var(--media-width) * 9 / 16);
+    --media-margin: 10px;
+}
+
+/* Make things align right */
+#games {
+    display: flex;
+    flex-direction: column;
+}
+
+.game {
+    text-align: center;
+    max-width: calc((var(--media-width) * 2.05));
+    margin: auto;
+}
+
+.images {
+    width: var(--media-width);
+}
+.images > img {
+    width: calc(var(--media-width) / 2);
+    height: calc(var(--media-height) / 2);
+}
+.video {
+    width: var(--media-width);
+    height: var(--media-height);
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
